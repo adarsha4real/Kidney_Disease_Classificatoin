@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A simple kidney disease classification model
+Home-page: https://github.com/Adarsha Baskota/Kidney_Disease_Classificatoin
+Author: Adarsha Baskota
+Author-email: addy404notfoound@gmail.com
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: summary
+
+# Kidney Disease Classification 
