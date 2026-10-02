@@ -1,1 +1,7 @@
 venv/
+artifacts/
+artifacts/
+__pycache__/
+*.pyc
+logs/
+*.zip
