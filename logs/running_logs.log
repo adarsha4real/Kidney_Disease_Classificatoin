@@ -1,1 +1,38 @@
 [2026-10-01 17:43:59,429: INFO: main]: Starting the CNN Classifier application...
+[2026-10-03 16:11:36,795: ERROR: main]: name 'STAGE_NAME' is not defined
+Traceback (most recent call last):
+  File "E:\Kidney_Disease_Classificatoin\main.py", line 8, in <module>
+    logger.info(f">>>>> stage {STAGE_NAME} started <<<<<")
+                               ^^^^^^^^^^
+NameError: name 'STAGE_NAME' is not defined
+[2026-10-03 16:12:26,267: ERROR: main]: name 'STAGE_NAME' is not defined
+Traceback (most recent call last):
+  File "E:\Kidney_Disease_Classificatoin\main.py", line 10, in <module>
+    logger.info(f">>>>> stage {STAGE_NAME} started <<<<<")
+                               ^^^^^^^^^^
+NameError: name 'STAGE_NAME' is not defined
+[2026-10-03 16:13:09,871: INFO: main]: >>>>> stage Data Ingestion Stage started <<<<<
+[2026-10-03 16:13:09,874: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-03 16:13:09,874: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-03 16:13:09,874: INFO: common]: created directory at: artifacts
+[2026-10-03 16:13:09,874: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-10-03 16:13:09,874: ERROR: main]: name 'DataIngestion' is not defined
+Traceback (most recent call last):
+  File "E:\Kidney_Disease_Classificatoin\main.py", line 12, in <module>
+    obj.main()
+  File "E:\Kidney_Disease_Classificatoin\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+                     ^^^^^^^^^^^^^
+NameError: name 'DataIngestion' is not defined
+[2026-10-03 16:14:11,470: INFO: main]: >>>>> stage Data Ingestion Stage started <<<<<
+[2026-10-03 16:14:11,470: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-03 16:14:11,470: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-03 16:14:11,470: INFO: common]: created directory at: artifacts
+[2026-10-03 16:14:11,470: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-10-03 16:14:11,470: INFO: data_ingestion]: msg=Downloading file from :[https://drive.google.com/file/d/1nN1hHVGp4Z3BQa-f1ETjqfh6QHzlFWiQ/view?usp=sharing] to :[artifacts/data_ingestion/data.zip]
+[2026-10-03 16:14:11,470: INFO: data_ingestion]: download started
+[2026-10-03 16:14:33,265: INFO: data_ingestion]: download completed successfully
+[2026-10-03 16:14:33,265: INFO: data_ingestion]: msg=Extracting zip file :[artifacts/data_ingestion/data.zip]
+[2026-10-03 16:14:33,689: INFO: main]: >>>>> stage Data Ingestion Stage completed!<<<<<
+
+x==========x
