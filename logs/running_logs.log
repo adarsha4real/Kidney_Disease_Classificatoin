@@ -36,3 +36,215 @@ NameError: name 'DataIngestion' is not defined
 [2026-10-03 16:14:33,689: INFO: main]: >>>>> stage Data Ingestion Stage completed!<<<<<
 
 x==========x
+[2026-10-09 15:48:57,689: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 15:48:57,691: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 15:48:57,691: INFO: common]: created directory at: artifacts
+[2026-10-09 15:57:43,854: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 15:57:43,915: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 15:57:43,929: INFO: common]: created directory at: artifacts
+[2026-10-09 16:01:14,707: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 16:01:14,711: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 16:01:14,712: INFO: common]: created directory at: artifacts
+[2026-10-09 16:01:17,888: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 16:01:17,893: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 16:01:17,894: INFO: common]: created directory at: artifacts
+[2026-10-09 16:02:40,389: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 16:02:40,393: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 16:02:40,394: INFO: common]: created directory at: artifacts
+[2026-10-09 16:06:09,058: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 16:06:09,063: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 16:06:09,065: INFO: common]: created directory at: artifacts
+[2026-10-09 16:35:51,530: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 16:35:51,535: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 16:35:51,537: INFO: common]: created directory at: artifacts
+[2026-10-09 16:36:12,430: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-10-09 16:36:12,608: INFO: 2175432401]: base model is saved at artifacts\prepare_base_model\base_model.h5 successfully
+[2026-10-09 16:39:38,898: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 16:39:38,900: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 16:39:38,901: INFO: common]: created directory at: artifacts
+[2026-10-09 16:39:39,334: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-10-09 16:39:39,408: INFO: 1118231086]: base model is saved at artifacts\prepare_base_model\base_model.h5 successfully
+[2026-10-09 16:41:07,169: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 16:41:07,171: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 16:41:07,172: INFO: common]: created directory at: artifacts
+[2026-10-09 16:41:14,334: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 16:41:14,336: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 16:41:14,337: INFO: common]: created directory at: artifacts
+[2026-10-09 16:41:21,569: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 16:41:21,572: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 16:41:21,573: INFO: common]: created directory at: artifacts
+[2026-10-09 16:43:15,803: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 16:43:15,806: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 16:43:15,808: INFO: common]: created directory at: artifacts
+[2026-10-09 16:43:16,154: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-10-09 16:43:16,232: INFO: 1118231086]: base model is saved at artifacts\prepare_base_model\base_model.h5 successfully
+[2026-10-09 16:43:16,363: INFO: 1118231086]: updated base model is saved at artifacts\prepare_base_model\base_model_updated.h5 successfully
+[2026-10-09 17:06:57,954: INFO: main]: >>>>> stage Data Ingestion Stage started <<<<<
+[2026-10-09 17:06:57,960: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:06:57,971: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:06:57,972: INFO: common]: created directory at: artifacts
+[2026-10-09 17:06:57,972: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-10-09 17:06:57,973: INFO: data_ingestion]: msg=Downloading file from :[https://drive.google.com/file/d/1nN1hHVGp4Z3BQa-f1ETjqfh6QHzlFWiQ/view?usp=sharing] to :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:06:57,973: INFO: data_ingestion]: download started
+[2026-10-09 17:07:22,967: INFO: data_ingestion]: download completed successfully
+[2026-10-09 17:07:22,967: INFO: data_ingestion]: msg=Extracting zip file :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:07:23,405: INFO: main]: >>>>> stage Data Ingestion Stage completed!<<<<<
+
+x==========x
+[2026-10-09 17:07:23,405: INFO: main]: >>>>> stage Prepare base model started <<<<<
+[2026-10-09 17:07:23,407: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:07:23,408: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:07:23,408: INFO: common]: created directory at: artifacts
+[2026-10-09 17:07:23,408: ERROR: main]: name 'Path' is not defined
+Traceback (most recent call last):
+  File "E:\Kidney_Disease_Classificatoin\main.py", line 24, in <module>
+    prepare_base_model.main()
+  File "E:\Kidney_Disease_Classificatoin\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 17, in main
+    prepare_base_model_config =config.get_prepare_base_model_config()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Kidney_Disease_Classificatoin\src\cnnClassifier\config\configuration.py", line 37, in get_prepare_base_model_config
+    root_dir=Path(config.root_dir),
+             ^^^^
+NameError: name 'Path' is not defined
+[2026-10-09 17:09:13,028: INFO: main]: >>>>> stage Data Ingestion Stage started <<<<<
+[2026-10-09 17:09:13,032: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:09:13,032: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:09:13,032: INFO: common]: created directory at: artifacts
+[2026-10-09 17:09:13,035: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-10-09 17:09:13,035: INFO: data_ingestion]: msg=Downloading file from :[https://drive.google.com/file/d/1nN1hHVGp4Z3BQa-f1ETjqfh6QHzlFWiQ/view?usp=sharing] to :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:09:13,035: INFO: data_ingestion]: download started
+[2026-10-09 17:09:39,945: INFO: data_ingestion]: download completed successfully
+[2026-10-09 17:09:39,945: INFO: data_ingestion]: msg=Extracting zip file :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:09:40,300: INFO: main]: >>>>> stage Data Ingestion Stage completed!<<<<<
+
+x==========x
+[2026-10-09 17:09:40,307: INFO: main]: >>>>> stage Prepare base model started <<<<<
+[2026-10-09 17:09:40,307: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:09:40,309: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:09:40,309: INFO: common]: created directory at: artifacts
+[2026-10-09 17:09:40,309: ERROR: main]: name 'PrepareBaseModel' is not defined
+Traceback (most recent call last):
+  File "E:\Kidney_Disease_Classificatoin\main.py", line 25, in <module>
+    prepare_base_model.main()
+  File "E:\Kidney_Disease_Classificatoin\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 18, in main
+    prepare_base_model = PrepareBaseModel(config=prepare_base_model_config)
+                         ^^^^^^^^^^^^^^^^
+NameError: name 'PrepareBaseModel' is not defined
+[2026-10-09 17:13:58,959: INFO: main]: >>>>> stage Data Ingestion Stage started <<<<<
+[2026-10-09 17:13:58,965: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:13:58,965: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:13:58,965: INFO: common]: created directory at: artifacts
+[2026-10-09 17:13:58,967: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-10-09 17:13:58,967: INFO: data_ingestion]: msg=Downloading file from :[https://drive.google.com/file/d/1nN1hHVGp4Z3BQa-f1ETjqfh6QHzlFWiQ/view?usp=sharing] to :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:13:58,967: INFO: data_ingestion]: download started
+[2026-10-09 17:14:24,868: INFO: data_ingestion]: download completed successfully
+[2026-10-09 17:14:24,868: INFO: data_ingestion]: msg=Extracting zip file :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:14:25,211: INFO: main]: >>>>> stage Data Ingestion Stage completed!<<<<<
+
+x==========x
+[2026-10-09 17:14:25,211: INFO: main]: >>>>> stage Prepare base model started <<<<<
+[2026-10-09 17:14:25,215: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:14:25,215: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:14:25,216: INFO: common]: created directory at: artifacts
+[2026-10-09 17:14:25,216: ERROR: main]: name 'prepareBaseModel' is not defined
+Traceback (most recent call last):
+  File "E:\Kidney_Disease_Classificatoin\main.py", line 25, in <module>
+    prepare_base_model.main()
+  File "E:\Kidney_Disease_Classificatoin\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 18, in main
+    prepare_base_model = prepareBaseModel(config=prepare_base_model_config)
+                         ^^^^^^^^^^^^^^^^
+NameError: name 'prepareBaseModel' is not defined
+[2026-10-09 17:22:26,132: INFO: main]: >>>>> stage Data Ingestion Stage started <<<<<
+[2026-10-09 17:22:26,135: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:22:26,135: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:22:26,137: INFO: common]: created directory at: artifacts
+[2026-10-09 17:22:26,137: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-10-09 17:22:26,137: INFO: data_ingestion]: msg=Downloading file from :[https://drive.google.com/file/d/1nN1hHVGp4Z3BQa-f1ETjqfh6QHzlFWiQ/view?usp=sharing] to :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:22:26,137: INFO: data_ingestion]: download started
+[2026-10-09 17:22:51,523: INFO: data_ingestion]: download completed successfully
+[2026-10-09 17:22:51,523: INFO: data_ingestion]: msg=Extracting zip file :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:22:51,926: INFO: main]: >>>>> stage Data Ingestion Stage completed!<<<<<
+
+x==========x
+[2026-10-09 17:22:51,926: INFO: main]: >>>>> stage Prepare base model started <<<<<
+[2026-10-09 17:22:51,927: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:22:51,928: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:22:51,929: INFO: common]: created directory at: artifacts
+[2026-10-09 17:22:51,929: ERROR: main]: name 'prepareBaseModel' is not defined
+Traceback (most recent call last):
+  File "E:\Kidney_Disease_Classificatoin\main.py", line 25, in <module>
+    prepare_base_model.main()
+  File "E:\Kidney_Disease_Classificatoin\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 18, in main
+    prepare_base_model = prepareBaseModel(config=prepare_base_model_config)
+                         ^^^^^^^^^^^^^^^^
+NameError: name 'prepareBaseModel' is not defined
+[2026-10-09 17:23:27,336: INFO: main]: >>>>> stage Data Ingestion Stage started <<<<<
+[2026-10-09 17:23:27,336: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:23:27,336: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:23:27,336: INFO: common]: created directory at: artifacts
+[2026-10-09 17:23:27,336: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-10-09 17:23:27,336: INFO: data_ingestion]: msg=Downloading file from :[https://drive.google.com/file/d/1nN1hHVGp4Z3BQa-f1ETjqfh6QHzlFWiQ/view?usp=sharing] to :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:23:27,336: INFO: data_ingestion]: download started
+[2026-10-09 17:23:50,205: INFO: data_ingestion]: download completed successfully
+[2026-10-09 17:23:50,205: INFO: data_ingestion]: msg=Extracting zip file :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:23:50,551: INFO: main]: >>>>> stage Data Ingestion Stage completed!<<<<<
+
+x==========x
+[2026-10-09 17:23:50,551: INFO: main]: >>>>> stage Prepare base model started <<<<<
+[2026-10-09 17:23:50,551: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:23:50,557: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:23:50,557: INFO: common]: created directory at: artifacts
+[2026-10-09 17:23:50,557: ERROR: main]: name 'prepareBaseModel' is not defined
+Traceback (most recent call last):
+  File "E:\Kidney_Disease_Classificatoin\main.py", line 25, in <module>
+    prepare_base_model.main()
+  File "E:\Kidney_Disease_Classificatoin\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 18, in main
+    prepare_base_model = prepareBaseModel(config=prepare_base_model_config)
+                         ^^^^^^^^^^^^^^^^
+NameError: name 'prepareBaseModel' is not defined
+[2026-10-09 17:24:58,697: INFO: main]: >>>>> stage Data Ingestion Stage started <<<<<
+[2026-10-09 17:24:58,697: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:24:58,700: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:24:58,700: INFO: common]: created directory at: artifacts
+[2026-10-09 17:24:58,700: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-10-09 17:24:58,700: INFO: data_ingestion]: msg=Downloading file from :[https://drive.google.com/file/d/1nN1hHVGp4Z3BQa-f1ETjqfh6QHzlFWiQ/view?usp=sharing] to :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:24:58,700: INFO: data_ingestion]: download started
+[2026-10-09 17:25:24,452: INFO: data_ingestion]: download completed successfully
+[2026-10-09 17:25:24,452: INFO: data_ingestion]: msg=Extracting zip file :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:25:24,835: INFO: main]: >>>>> stage Data Ingestion Stage completed!<<<<<
+
+x==========x
+[2026-10-09 17:25:24,835: INFO: main]: >>>>> stage Prepare base model started <<<<<
+[2026-10-09 17:25:24,838: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:25:24,839: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:25:24,840: INFO: common]: created directory at: artifacts
+[2026-10-09 17:25:24,840: ERROR: main]: name 'prepareBaseModel' is not defined
+Traceback (most recent call last):
+  File "E:\Kidney_Disease_Classificatoin\main.py", line 25, in <module>
+    prepare_base_model.main()
+  File "E:\Kidney_Disease_Classificatoin\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 18, in main
+    prepare_base_model = prepareBaseModel(config=prepare_base_model_config)
+                         ^^^^^^^^^^^^^^^^
+NameError: name 'prepareBaseModel' is not defined
+[2026-10-09 17:27:50,291: INFO: main]: >>>>> stage Data Ingestion Stage started <<<<<
+[2026-10-09 17:27:50,296: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:27:50,297: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:27:50,298: INFO: common]: created directory at: artifacts
+[2026-10-09 17:27:50,298: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-10-09 17:27:50,298: INFO: data_ingestion]: msg=Downloading file from :[https://drive.google.com/file/d/1nN1hHVGp4Z3BQa-f1ETjqfh6QHzlFWiQ/view?usp=sharing] to :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:27:50,298: INFO: data_ingestion]: download started
+[2026-10-09 17:28:41,145: INFO: data_ingestion]: download completed successfully
+[2026-10-09 17:28:41,145: INFO: data_ingestion]: msg=Extracting zip file :[artifacts/data_ingestion/data.zip]
+[2026-10-09 17:28:41,519: INFO: main]: >>>>> stage Data Ingestion Stage completed!<<<<<
+
+x==========x
+[2026-10-09 17:28:41,519: INFO: main]: >>>>> stage Prepare base model started <<<<<
+[2026-10-09 17:28:41,519: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-10-09 17:28:41,519: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-10-09 17:28:41,519: INFO: common]: created directory at: artifacts
+[2026-10-09 17:28:41,961: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2026-10-09 17:28:42,041: INFO: prepare_base_model]: base model is saved at artifacts\prepare_base_model\base_model.h5 successfully
+[2026-10-09 17:28:42,153: INFO: prepare_base_model]: updated base model is saved at artifacts\prepare_base_model\base_model_updated.h5 successfully
+[2026-10-09 17:28:42,160: INFO: main]: >>>>> stage Prepare base model completed!<<<<<
+
+x==========x
